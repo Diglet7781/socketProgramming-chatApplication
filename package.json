@@ -1,0 +1,24 @@
+{
+  "name": "chatApplication",
+  "version": "1.0.0",
+  "description": "nodejs chat application",
+  "main": "server.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
